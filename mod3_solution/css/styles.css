@@ -1,0 +1,134 @@
+body{
+	font-size: 16px
+	color: #fff;
+	background-color: #ffffff;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/**HEADER**/
+#header-nav {
+
+	background-color: #A9A9A9;
+    border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand  {
+    padding-top: 10px;
+}
+
+.navbar-brand h1 {/* Restaurant name */
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    color:#000;
+    font-size:1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.75;
+
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+div #nav-list  {
+   background-color: #ffffff;
+   margin-top: 0px;
+   margin-bottom:0px;
+   border: 1px solid #000 ;
+
+ }
+
+
+ 
+
+ #nav-list a {
+  color: #000;
+  text-align: center;
+
+
+ }
+ #nav-list a:hover {
+   background: #E7E7E7;
+
+ }
+ #nav-list a span {
+ 	text-align: center;
+   font-size: 1.2em;
+   
+
+ }
+ 
+ 
+ 
+ 
+ .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+   border: 2px solid #000
+ }
+ .navbar-header button.navbar-toggle {
+   clear: both;
+   margin-top: -45px;
+ }
+ 
+ div.container h2 {
+ 	font-size: 2em;
+ 	font-weight: bold;
+ }
+ .category-tile   {
+ 	margin-top: 10px;
+ 	position: relative;
+ 	padding: 50px 10px 10px;
+ 	color: #000;
+ 	background-color:  #A9A9A9;
+ 	overflow: auto;
+
+ }
+
+
+
+ .category-tile span {
+    position: absolute;
+    top:0px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em ;
+    color: #000;
+    font-weight: bold;
+	   }
+
+ 
+}
+
+
+ /* END HEADER */
+
+********* Large devices only **********/
+ @media (min-width: 1200px) {
+
+  
+ }
+ 
+ /********** Medium devices only **********/
+ @media (min-width: 992px) and (max-width: 1199px) {
+
+   }
+  
+ 
+ /********** Small devices only **********/
+ @media (min-width: 768px) and (max-width: 991px) {
+  
+ 
+ }
+ 
+ /********** Extra small devices only **********/
+ @media (max-width: 767px) {
+  
+   
+
+   #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+
+}
+}
